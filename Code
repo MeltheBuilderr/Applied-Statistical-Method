@@ -50,7 +50,7 @@ cat("\n- Number of sleep_hours values equal to 99 -\n")
 sum(sample0$sleep_hours == 99) 
 sample1 <- sample0
 sample1[sample1$sleep_hours == 99, 'sleep_hours'] <- NA
-sample1[sample1$faculty == 'engineering ', 'faculty'] <- 'Engineering'
+sample1[sample1$faculty == 'engineering ', 'faculty'] <- 'Engineering', 'Faculty'
 
 # Inspect cleaned sample.csv
 cat("\n- Sleep hours after cleaning data -\n")
